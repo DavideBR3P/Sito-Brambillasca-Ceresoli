@@ -1,0 +1,232 @@
+* {box-sizing: border-box; font-family: american typewriter, serif;}
+html {
+height: 100%;
+font-family: american typewriter, serif;
+}
+.contenitore-pagina {background: black; max-width: 1200px; margin:auto}
+.header {
+    background: black;
+}
+.header_logo{
+    float: left;
+    color:white;
+    display: block;
+    height: 50px;
+}
+.header_logo img{
+    height: 100%;
+}
+.header_menu{
+    float:right;
+    margin: 0;
+    padding:0;
+}
+.header_menu_item{
+    display: inline-block;
+}
+
+.header_menu_item a{
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+.header_menu_item a:hover{background: #8e0e0e; }
+.header_bar{display:block; float: right;padding: 20px;display: none;}
+.header_bar span{display: block;height: 3px;width:30px;background:black;margin-bottom: 5px;}
+.animate{
+-webkit-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+background: black;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+* html .clearfix             { zoom: 1; } 
+*:first-child+html .clearfix { zoom: 1; } 
+
+.barrette{display: none;}
+
+.container-film {  
+    display: grid;
+    grid-template-columns: 1.4fr 1.4fr 0.8fr;
+    grid-template-rows: repeat(2, 0.4fr) 2.5fr 0.3fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "image titolo caratteristiche"
+      "image rating caratteristiche"
+      "image riassunto caratteristiche"
+      "trailer riassunto caratteristiche";
+    
+    background: black;
+    
+}
+
+p {
+    color:white;
+}
+h1,h2{
+    color:#8e0e0e;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+
+}  
+.titolo { grid-area: titolo; }
+
+.rating { grid-area: rating;  }
+.rating >*{
+    float: right;
+}
+.rating label{
+    height: 35px;
+    width:20%;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+.rating label::after{
+    transition: all 0.4s ease-out;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    content: "☆";
+    color: #5e5e5e;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    font-size: 60px;
+    -webkit-animation: 1s pulse ease;
+    animation: 1s pulse ease;
+    margin-bottom: 30px;
+
+}
+
+.rating label:hover::after{
+    color: #5e5e5e;
+    text-shadow: 0 0 10px #5e5e5e;
+}
+.rating input{
+    display:none;
+}
+.rating input:checked + label::after,
+.rating input:checked ~ label::after{
+    content: "⭐";
+    color: #f9bf3b;
+    text-shadow: 0 0 15px #f9bf3b;
+
+
+}
+::-webkit-scrollbar {
+    width: 3px;
+    }
+    ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black; 
+    border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+    background: #8e0e0e; 
+    border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    background: #8e0e0e; 
+    }
+
+
+
+.riassunto { grid-area: riassunto;  }
+
+.caratteristiche { grid-area: caratteristiche; }
+
+.image { grid-area: image;  }
+
+
+.trailer {
+border: 2px solid white;
+text-shadow: 1px 1px white;
+padding: 10px;
+text-align: center;
+font-size: larger;
+grid-area: trailer;
+}
+
+
+
+.trailer:hover {
+text-decoration: none;
+cursor: pointer;
+border: 2px dashed white;
+font-size: 110%;
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+  }
+  .footer {
+    position:relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: #111;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    gap: 0.2rem;
+    color: #fff;
+  }
+  
+  
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  
+
+@media screen and (max-width: 1024px){
+    .container-film{
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.1fr 2.0fr 0.1fr 0.6fr 1.0fr 0.2fr;
+        grid-template-areas: 
+            "titolo"
+            "image"
+            "rating"
+            "riassunto"
+            "caratteristiche"
+            "trailer";
+        flex-wrap: wrap;
+    }
+    @media (max-width:767px){
+        .header_menu{width:100%; height: 0px;overflow: hidden;}
+        .header_menu_item{float:right}
+        .header_bar{display: block;}
+        .is-open{height: 300px;overflow: auto;}
+        
+    }
+
+}
