@@ -20,14 +20,14 @@
                     <span></span>
                 </a>
 
-                <ul class="header_menu animate">
+                <!-- <ul class="header_menu animate">
                     <li class="header_menu_item"><a href="Film/film.html">Film</a></li>
                     <li class="header_menu_item"><a href="Serie Tv/serie-tv.html">Serie Tv</a></li>
                     <li class="header_menu_item"><a href="Altre Pag.html/nuovi arrivi.html">Nuovi Arrivi</a></li>
                     <li class="header_menu_item"><a href="Altre Pag.html/Grandi Classici.html">Grandi Classici</a></li>
                     <li class="header_menu_item"><a href="Altre Pag.html/da non perdere.html">Da non perdere</a></li>
                     <li class="header_menu_item"><a href="#">Contatti</a></li>
-                </ul>
+                </ul> -->
             </header>
 
             <div class="slide">

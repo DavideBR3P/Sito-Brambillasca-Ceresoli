@@ -20,14 +20,14 @@
                     <span></span>
                 </a>
 
-                <ul class="header_menu animate">
-                    <li class="header_menu_item"><a href="Film/film.html">Film</a></li>
-                    <li class="header_menu_item"><a href="Serie Tv/serie-tv.html">Serie Tv</a></li>
-                    <li class="header_menu_item"><a href="Altre Pag.html/nuovi arrivi.html">Nuovi Arrivi</a></li>
-                    <li class="header_menu_item"><a href="Altre Pag.html/Grandi Classici.html">Grandi Classici</a></li>
-                    <li class="header_menu_item"><a href="Altre Pag.html/da non perdere.html">Da non perdere</a></li>
-                    <li class="header_menu_item"><a href="Altre Pag.html/contatti.html">Contatti</a></li>
-                </ul>
+                <!-- <ul class="header_menu animate">
+                    <li class="header_menu_item"><a href="Film/film.php">Film</a></li>
+                    <li class="header_menu_item"><a href="Serie Tv/serie-tv.php">Serie Tv</a></li>
+                    <li class="header_menu_item"><a href="Altre Pag.html/nuovi arrivi.php">Nuovi Arrivi</a></li>
+                    <li class="header_menu_item"><a href="Altre Pag.html/Grandi Classici.php">Grandi Classici</a></li>
+                    <li class="header_menu_item"><a href="Altre Pag.html/da non perdere.php">Da non perdere</a></li>
+                    <li class="header_menu_item"><a href="Altre Pag.html/contatti.php">Contatti</a></li>
+                </ul> -->
             </header>
 
             <div class="slide">
@@ -79,7 +79,7 @@
                   
                   
                   <div class="card">
-                    <a href="Film/film d'avventura/dune.html">
+                    <a href="Film/film d'avventura/dune.php">
                       <img src="immagini/Film/Film D'avventura/Fa-Dune.jpg" alt="poster1" />
                       <div class="content">
                         <h1 class="name">Dune 2 (2024)</h1>
@@ -101,7 +101,7 @@
                   </div>
                   
                   <div class="card">
-                    <a href="Film/film romantici/lala.html">
+                    <a href="Film/film romantici/lala.php">
                       <img src="immagini/Film/Film Romantici/la la land.jpg" alt="poster2" />
                       <div class="content">
                         <h1 class="name">La La Land (2016)</h1>
@@ -122,7 +122,7 @@
                   </div>
                   
                   <div class="card">
-                      <a href="Film/filmdrammatici/wolf.html">
+                      <a href="Film/filmdrammatici/wolf.php">
                       <img src="immagini/Film/Film Drammatici/The Wolf of Street.jpg" alt="poster3" />
                       <div class="content">
                         <h1 class="name">The Wolf of Wall Street (2013)</h1>
@@ -142,7 +142,7 @@
                   </div>
                   
                   <div class="card">
-                    <a href="Film/film western/ilbuono.html">
+                    <a href="Film/film western/ilbuono.php">
                       <img src="immagini/Film/Western/il buono il brutto e il cattivo.jpg" alt="poster4" />
                       <div class="content">
                         <h1 class="name">Il Buono, Il Brutto e Il Cattivo (1966)</h1>
@@ -161,7 +161,7 @@
                     </a>
                    </div>
                    <div class="card">
-                    <a href="Film/film western/ilbuono.html">
+                    <a href="Film/film western/ilbuono.php">
                       <img src="immagini/Film/Film D'avventura/Fa-Dune.jpg"alt="poster1" />
                       <div class="content">
                         <h1 class="name">Dune 2 (2024)</h1>
