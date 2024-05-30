@@ -1,4 +1,4 @@
-<div>
+<div class="footer">
     © 2024
 
     Lavoro realizzato da Brambillasca Davide e Ceresoli Veronica 

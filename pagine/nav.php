@@ -4,8 +4,8 @@
             <?php
                 if (basename($_SERVER['PHP_SELF']) == "index.php") {
                     echo "<li><a href='pagine/registrazione.php'>Registrati</a></li>";
-                } elseif (basename($_SERVER['PHP_SELF']) == "pagine/registrazione.php") {
-                    echo "<li><a href='index.php'>Login</a></li>";
+                } elseif (basename($_SERVER['PHP_SELF']) == "registrazione.php") {
+                    echo "<li><a href='../index.php'>Login</a></li>";
                 } else {
                     if (basename($_SERVER['PHP_SELF']) == "home.php") {
                         echo "<li id='active'>Home</li>";
