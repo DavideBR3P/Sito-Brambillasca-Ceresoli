@@ -20,14 +20,14 @@
                     <span></span>
                 </a>
 
-                <ul class="header_menu animate">
+                <!-- <ul class="header_menu animate">
                     <li class="header_menu_item"><a href="../home.html">HOME</a></li>
                     <li class="header_menu_item"><a href="../Serie Tv/serie-tv.html">Serie Tv</a></li>
                     <li class="header_menu_item"><a href="../Altre Pag.html/nuovi arrivi.html">Nuovi Arrivi</a></li>
                     <li class="header_menu_item"><a href="../Altre Pag.html/Grandi Classici.html">Grandi Classici</a></li>
                     <li class="header_menu_item"><a href="../Altre Pag.html/da non perdere.html">Da non perdere</a></li>
                     <li class="header_menu_item"><a href="#">Contatti</a></li>
-                </ul>
+                </ul> -->
             </header>
             <div class="grid-immagini">
                 <ul class="galleria">
@@ -92,11 +92,11 @@
             </div>
         </div>
 
-        <footer>
+        <!-- <footer>
             <div class="footer"><br>&copy; 2024 </br>
               <br> Lavoro realizzato da Brambillasca Davide e Contini Federico</br>  
               <br> The Film Review All rights reserved.</br></div>
-        </footer>
+        </footer> -->
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

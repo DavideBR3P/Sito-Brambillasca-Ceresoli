@@ -1,6 +1,6 @@
 <html>
     <head >
-        <title>Serie drammatiche</title>
+        <title>Serie d'avventura</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="../../CSS/style.css">
         <script src="../../JAVA/script.js" defer></script>
@@ -20,7 +20,7 @@
                     <span></span>
                 </a>
     
-                <ul class="header_menu animate">
+                <!-- <ul class="header_menu animate">
                     <li class="header_menu_item"><a href="../../home.html">Home</a></li>
                     <li class="header_menu_item"><a href="../../Film/film.html">Film</a></li>
                     <li class="header_menu_item"><a href="../serie-tv.html">Serie Tv</a></li>
@@ -28,7 +28,7 @@
                     <li class="header_menu_item"><a href="../../Altre Pag.html/Grandi Classici.html">Grandi Classici</a></li>
                     <li class="header_menu_item"><a href="../../Altre Pag.html/da non perdere.html">Da non perdere</a></li>
                     <li class="header_menu_item"><a href="../../Altre Pag.html/contatti.html">Contatti</a></li>
-                </ul>
+                </ul> -->
     
     
             </header>
@@ -37,33 +37,34 @@
                     <li class="card-item">
                         <a href="#">
                             <figure class="card">
-                                <img src="../../immagini/Serie/Serie drammatiche/better call saul.jpg">
-                                <figcaption>Better Call Saul</figcaption>
+                                <img src="../../immagini/Serie/Serie D'avventura/GOT.jpg">
+                                <figcaption>Game of Throns</figcaption>
                             </figure>
                         </a>
                     </li>
                     <li class="card-item">
                         <a href="#">
                             <figure class="card">
-                                <img src="../../immagini/Serie/Serie drammatiche/the bear.jpg">
-                                <figcaption>The Bear</figcaption>
+                                <img src="../../immagini/Serie/Serie D'avventura/stranger things.jpeg">
+                                <figcaption>Stranger Things</figcaption>
                             </figure>
                         </a>
                     </li>
                     <li class="card-item">
                         <a href="#">
                             <figure class="card">
-                                <img src="../../immagini/Serie/Serie drammatiche/atlanta.jpg">
-                                <figcaption>Atlanta</figcaption>
+                                <img src="../../immagini/Serie/Serie D'avventura/Reacher.jpg">
+                                <figcaption>Reacher</figcaption>
                             </figure>
                         </a>
                     </li>
-                </div>
-                <footer>
-                    <div class="footer"><br>&copy; 2024 </br>
-                      <br> Lavoro realizzato da Brambillasca Davide e Contini Federico</br>  
-                      <br> The Film Review All rights reserved.</br></div>
-                </footer>
+        </div>          
+
+        <!-- <footer>
+            <div class="footer"><br>&copy; 2024 </br>
+              <br> Lavoro realizzato da Brambillasca Davide e Contini Federico</br>  
+              <br> The Film Review All rights reserved.</br></div>
+        </footer> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){

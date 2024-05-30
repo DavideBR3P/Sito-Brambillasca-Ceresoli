@@ -12,35 +12,35 @@
                     } else {
                         echo "<li><a href='home.php'>Home</a></li>";
                     }
-                    if (basename($_SERVER['PHP_SELF']) == "film.php") {
+                    if (basename($_SERVER['PHP_SELF']) == "Film/film.php") {
                         echo "<li id='active'>Film</li>";
                     } else {
-                        echo "<li><a href='film.php'>Film</a></li>";
+                        echo "<li><a href='Film/film.php'>Film</a></li>";
                     }
-                    if (basename($_SERVER['PHP_SELF']) == "serie-tv.php") {
+                    if (basename($_SERVER['PHP_SELF']) == "Serie Tv/serie-tv.php") {
                         echo "<li id='active'>Serie Tv</li>";
                     } else {
-                        echo "<li><a href='serie-tv.php'>Serie Tv</a></li>";
+                        echo "<li><a href='Serie Tv/serie-tv.php'>Serie Tv</a></li>";
                     }
-                    if (basename($_SERVER['PHP_SELF']) == "nuovi arrivi.php") {
+                    if (basename($_SERVER['PHP_SELF']) == "pagine/nuovi arrivi.php") {
                         echo "<li id='active'>Nuovi Arrivi</li>";
                     } else {
-                        echo "<li><a href='nuovi arrivi.php'>Nuovi Arrivi</a></li>";
+                        echo "<li><a href='pagine/nuovi arrivi.php'>Nuovi Arrivi</a></li>";
                     } 
-                    if (basename($_SERVER['PHP_SELF']) == "Grandi Classici.php") {
+                    if (basename($_SERVER['PHP_SELF']) == "pagine/Grandi Classici.php") {
                         echo "<li id='active'>Grandi Classici</li>";
                     } else {
-                        echo "<li><a href='Grandi Classici.php'>Grandi Classici</a></li>";
+                        echo "<li><a href='pagine/Grandi Classici.php'>Grandi Classici</a></li>";
                     }
-                    if (basename($_SERVER['PHP_SELF']) == "da non perdere.php") {
+                    if (basename($_SERVER['PHP_SELF']) == "pagine/da non perdere.php") {
                         echo "<li id='active'>Da Non Perdere</li>";
                     } else {
-                        echo "<li><a href='da non perdere.php'>Da Non Perdere</a></li>";
+                        echo "<li><a href='pagine/da non perdere.php'>Da Non Perdere</a></li>";
                     }
-                    if (basename($_SERVER['PHP_SELF']) == "contatti.php") {
+                    if (basename($_SERVER['PHP_SELF']) == "pagine/contatti.php") {
                         echo "<li id='active'>Contatti</li>";
                     } else {
-                        echo "<li><a href='contatti.php'>Contatti</a></li>";
+                        echo "<li><a href='pagine/contatti.php'>Contatti</a></li>";
                     }
                     if (basename($_SERVER['PHP_SELF']) == "logout.php") {
                         echo "<li id='active'>Logout</li>";

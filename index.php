@@ -178,7 +178,7 @@
             </div>
         </div>
 
-        <footer class="footer">
+        <!-- <footer class="footer">
             <div class="container">
                 <div class="row">
                     <div class="footer-col">
@@ -212,7 +212,7 @@
                     
                 </div>
             </div>
-       </footer>
+       </footer> -->
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

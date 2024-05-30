@@ -185,11 +185,11 @@
             </div>
         </div>
 
-        <footer>
+        <!-- <footer>
           <div class="footer"><br>&copy; 2024 </br>
             <br> Lavoro realizzato da Brambillasca Davide e Contini Federico</br>  
             <br> The Film Review All rights reserved.</br></div>
-      </footer>
+      </footer> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
