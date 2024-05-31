@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <?php require("pagine/nav.php")?>
+        <?php require("nav.php")?>
         <div class="contenitore-g">
             <header class="header clearfix">
                 <a href="" class="header_logo"><img src="logor.jpg"></a>
@@ -202,6 +202,6 @@
         });
 
     </script>
-    <?php require("pagine/footer.php")?>
+    <?php require("footer.php")?>
     </body>
 </html>
