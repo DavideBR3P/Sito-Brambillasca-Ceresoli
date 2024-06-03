@@ -40,10 +40,10 @@
                     <img class="image-item" src="../immagini/Film/film Horror/il silenzio degli innocent i.jpg"  />
                     <img class="image-item" src="../immagini/Film/Film Drammatici/c'era una volta ad hollywood.jpg"  />
                     <img class="image-item" src="../immagini/Film/Film commedia/forrest gump.jpg"  />
-                    <img class="image-item" src="../immagini/Serie/Serie d'azione/breaking bad.jpg"  />
+                    <!-- <img class="image-item" src="../immagini/Serie/Serie d'azione/breaking bad.jpg"  />
                     <img class="image-item" src="../immagini/Serie/Serie drammatiche/better call saul.jpg"  />
                     <img class="image-item" src="../immagini/Serie/Serie d'azione/Suburra_Vertical-Italian_RGB-1.avif"  />
-                    <img class="image-item" src="../immagini../immagini/Serie/Serie d'azione/gomorra.jpeg  "/>
+                    <img class="image-item" src="../immagini../immagini/Serie/Serie d'azione/gomorra.jpeg  "/> -->
                     <img class="image-item" src="../immagini/Film/Film D'azione/fight club.jpg"  />
                     <img class="image-item" src="../immagini/Film/Film Drammatici/the Iron claw.jpg"  />
                     <img class="image-item" src="../immagini/Film/Film commedia/il gande lebowski.jpg"  />
@@ -52,8 +52,8 @@
                     <img class="image-item" src="../immagini/Film/Film D'azione/bullet train.jpg"  />
                     <img class="image-item" src="../immagini/Film/Film D'azione/mad max.jpg"  />
                     <img class="image-item" src="../immagini/Film/film Horror/the whale.jpg"  />
-                    <img class="image-item" src="../immagini/Serie/Serie drammatiche/atlanta.jpg"  />
-                    <img class="image-item" src="../immagini/Serie/Animazione per adulti/Habin Hotel.jpg"  />
+                    <!-- <img class="image-item" src="../immagini/Serie/Serie drammatiche/atlanta.jpg"  />
+                    <img class="image-item" src="../immagini/Serie/Animazione per adulti/Habin Hotel.jpg"  /> -->
                     <img class="image-item" src="../immagini/Film/Western/django.jpg"  />
                     
                     
