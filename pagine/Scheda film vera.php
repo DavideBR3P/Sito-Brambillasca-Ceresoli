@@ -75,9 +75,7 @@
                   <br> Lavoro realizzato da Brambillasca Davide e Contini Federico</br>  
                   <br> The Film Review All rights reserved.</br></div>
             </footer> -->
+            
     </body>
-
-
-
 
 </html>

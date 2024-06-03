@@ -1,3 +1,12 @@
+<?php
+	session_start();
+	if(isset($_SESSION['username'])){
+		header('location:../index');
+	}
+?>
+
+
+
 <html>
     <head >
         <meta charset="UTF-8" />
@@ -11,6 +20,9 @@
 
     </head>
     <body>
+        <?php
+        require("../pagine/nav.php");
+        ?>
         <div class="contenitore-g">
             <header class="header clearfix">
                 <a href="" class="header_logo"><img src="../logor.jpg"></a>
@@ -29,10 +41,13 @@
                     <li class="header_menu_item"><a href="#">Contatti</a></li>
                 </ul> -->
             </header>
-            <div class="grid-immagini">
+            <?php
+            require("../data/connessione_db.php");
+            echo <<< EOD
+                <div class="grid-immagini">
                 <ul class="galleria">
                     <li class="card-item">
-                        <a href="film d'avventura/filmd'avventura.html">
+                        <a href="Filmgenere.php?Genere=1">
                             <figure class="card">
                                 <img src="../immagini/Film/Film Avventura.png">
                                 <figcaption>Film d'avventura</figcaption>
@@ -87,9 +102,12 @@
                             </figure>
                         </a>
                     </li>
-                
                 </ul>
             </div>
+            EOD;
+        
+            ?>
+            
         </div>
 
         <!-- <footer>
@@ -111,6 +129,8 @@
         });
 
     </script>
+    <?php require("footer.php");
+    ?>
     </body>
 </html>
             

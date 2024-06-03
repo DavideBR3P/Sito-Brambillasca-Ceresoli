@@ -10,7 +10,7 @@
                     if (basename($_SERVER['PHP_SELF']) == "home.php") {
                         echo "<li id='active'>Home</li>";
                     } else {
-                        echo "<li><a href='pagine/home.php'>Home</a></li>";
+                        echo "<li><a href='home.php'>Home</a></li>";
                     }
                     if (basename($_SERVER['PHP_SELF']) == "../Film/film.php") {
                         echo "<li id='active'>Film</li>";

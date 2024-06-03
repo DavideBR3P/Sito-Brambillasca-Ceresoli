@@ -10,8 +10,6 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <?php require("nav.php");?>
-
         <div class="contenitore-g">
             <header class="header clearfix">
                 <a href="" class="header_logo"><img src="../logor.jpg"></a>
@@ -20,16 +18,17 @@
                     <span></span>
                     <span></span>
                 </a>
+                <?php require("nav.php");?> 
 
-                <!-- <ul class="header_menu animate">
+                 <!-- <ul class="header_menu animate">
                     <li class="header_menu_item"><a href="Film/film.php">Film</a></li>
                     <li class="header_menu_item"><a href="Serie Tv/serie-tv.php">Serie Tv</a></li>
                     <li class="header_menu_item"><a href="Altre Pag.html/nuovi arrivi.php">Nuovi Arrivi</a></li>
                     <li class="header_menu_item"><a href="Altre Pag.html/Grandi Classici.php">Grandi Classici</a></li>
                     <li class="header_menu_item"><a href="Altre Pag.html/da non perdere.php">Da non perdere</a></li>
                     <li class="header_menu_item"><a href="Altre Pag.html/contatti.php">Contatti</a></li>
-                </ul> -->
-            </header>
+                </ul>  -->
+            </header> 
             <div class="slide">
                 <div class="slider-wrapper">
                   <button id="prev-slide" class="slide-button material-symbols-rounded">
