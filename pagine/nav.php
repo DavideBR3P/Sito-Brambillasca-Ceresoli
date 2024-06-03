@@ -2,7 +2,7 @@
     <div class="centratonav">
         <ul class="navlinks">
             <?php
-                if (basename($_SERVER['PHP_SELF']) == "../index.php") {
+                if (basename($_SERVER['PHP_SELF']) == "index.php") {
                     echo "<li><a href='pagine/login.php'>Login</a></li>";
                 } elseif (basename($_SERVER['PHP_SELF']) == "login.php") {
                     echo "<li><a href='../index.php'>Registrati</a></li>";

@@ -12,11 +12,12 @@ body {
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Open Sans', Verdana, 'DejaVu Sans', Arial, sans-serif;
-	background-color: #ffffffda;
+	background-color: #393939da;
+	text-align: center;
 }
 
 .nav {
-	background-color: #ff0000d7;
+	background-color: #000000;
 	border-bottom: 1.5px solid white;
 	box-shadow: 0px 1px 4px black;
 }
@@ -29,9 +30,9 @@ body {
 .contenuto {
 	width: 550px;
 	margin: auto;
-	padding: 15px;
+	padding: 85px;
 	text-align: center;
-	padding-bottom: 40px;
+	padding-bottom: 90px;
 }
 
 .footer {
@@ -39,28 +40,16 @@ body {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: #22225b;
-	border-top: 1.5px solid #de9606;
+	background-color: #000000;
+	border-top: 1.5px solid #ffffff;
 	box-shadow: 1px 0px 4px black;
-	color: #de9606;;
+	color: #b48648;;
 	font-size: 9px;
 	text-align: center;
-	padding: 10px;
-}
-
-#tab_dati_personali{
-	text-align: left;
-	margin: auto;
-}
-.tab_input{
-	text-align: left;
-	margin: auto;
-}
-.input_dati_personali{
-	width: 300px;
+	padding: 35px;
 }
 input{
-	font-family: 'Open Sans', Verdana, 'DejaVu Sans', Arial, sans-serif;
+	font-family: 'american typewriter', sans-serif;
 }
 ul.navlinks{
 	color: #b48648;
@@ -72,12 +61,11 @@ ul.navlinks li {
 	margin: 10px;
 }
 ul.navlinks li#active{
-	/* color:#e8dbca; */
 	color:white;
 }
 ul.navlinks li a{
 	text-decoration: none;
-	color: #de9606;
+	color: #ffaa00;
 }
 ul.navlinks li a:hover{
 	color: white;
@@ -86,7 +74,7 @@ ul.navlinks li a:hover{
 	display: none;
 }
 
-.elenco_libri{
+/* .elenco_libri{
 	text-align: left;
 	margin: auto;
 }
@@ -138,4 +126,4 @@ ul.navlinks li a:hover{
 	text-align: center;
 }
 
-
+ */
