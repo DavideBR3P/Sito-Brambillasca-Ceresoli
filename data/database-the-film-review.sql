@@ -14,18 +14,18 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- Dump dei dati della tabella the film review.attori: ~1 rows (circa)
+-- Dump dei dati della tabella the film review.attori: ~0 rows (circa)
 INSERT INTO `attori` (`Cod_Attori`, `Nome`, `Cognome`) VALUES
 	(1, 'Leonardo', 'Di Caprio');
 
--- Dump dei dati della tabella the film review.casa_di_produzione: ~1 rows (circa)
+-- Dump dei dati della tabella the film review.casa_di_produzione: ~0 rows (circa)
 INSERT INTO `casa_di_produzione` (`Cod_CPRO`, `Nome`) VALUES
 	(1, 'Columbia Pictures');
 
--- Dump dei dati della tabella the film review.film: ~2 rows (circa)
-INSERT INTO `film` (`Cod_Film`, `Titolo`, `Data`, `Durata`, `Descrizione`, `Cod_Reg`, `Lingua Originale`) VALUES
-	(1, 'C\'era una volta a hollywood', '2019-07-26', '02:41:00', NULL, 1, 'Inglese'),
-	(2, 'Dune Parte 2', '0000-00-00', '00:00:00', NULL, NULL, NULL);
+-- Dump dei dati della tabella the film review.film: ~1 rows (circa)
+INSERT INTO `film` (`Cod_Film`, `Titolo`, `Data`, `Durata`, `Descrizione`, `Cod_Reg`, `Lingua Originale`, `copertina`) VALUES
+	(1, 'C\'era una volta a hollywood', '2019-07-26', '02:41:00', NULL, 1, 'Inglese', NULL),
+	(2, 'Dune Parte 2', '0000-00-00', '00:00:00', NULL, NULL, NULL, NULL);
 
 -- Dump dei dati della tabella the film review.genere: ~7 rows (circa)
 INSERT INTO `genere` (`Cod_genere`, `Genere`) VALUES
@@ -42,23 +42,24 @@ INSERT INTO `ha_come_genere` (`Cod_Gen`, `Cod_Film`) VALUES
 	(1, 1),
 	(3, 1);
 
--- Dump dei dati della tabella the film review.ha_recitato: ~1 rows (circa)
+-- Dump dei dati della tabella the film review.ha_recitato: ~0 rows (circa)
 INSERT INTO `ha_recitato` (`Cod_Attore`, `Cod_Film`) VALUES
 	(1, 1);
 
--- Dump dei dati della tabella the film review.prodotto_da: ~1 rows (circa)
+-- Dump dei dati della tabella the film review.prodotto_da: ~0 rows (circa)
 INSERT INTO `prodotto_da` (`Cod_CPRO`, `Cod_Film`) VALUES
 	(1, 1);
 
--- Dump dei dati della tabella the film review.registri: ~4 rows (circa)
+-- Dump dei dati della tabella the film review.registri: ~3 rows (circa)
 INSERT INTO `registri` (`Cod_Reg`, `Nome`, `Cognome`) VALUES
 	(1, 'Quentin', 'Tarantino'),
 	(2, 'Christopher', 'Nolan'),
 	(3, 'James', 'Cameron'),
 	(4, 'Wes', ' Anderson');
 
--- Dump dei dati della tabella the film review.utente: ~2 rows (circa)
+-- Dump dei dati della tabella the film review.utente: ~3 rows (circa)
 INSERT INTO `utente` (`username`, `password`, `nome`, `cognome`, `email`, `telefono`) VALUES
+	('asd', 'asd', 'asd', 'asd', 'asd', '7777'),
 	('TheDave', 'Dave17', 'Davide', 'Brambillasca', 'davide.brambillasca@licebanfi.eu', 'o'),
 	('Vero', 'Vero18', 'Veronica', 'Ceresoli', 'veronica.ceresoli@liceobanfi,eu', '1');
 
