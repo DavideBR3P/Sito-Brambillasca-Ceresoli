@@ -37,7 +37,7 @@
                 require("../data/connessione_db.php");
 
                 $myquery = "SELECT username, password 
-                            FROM utenti
+                            FROM utente
                             WHERE username='$username'
                                 AND password='$password'";
 
@@ -51,7 +51,7 @@
                     $_SESSION["username"] = $username;
 
                     $conn->close();
-					header("location: pagine/home.php");
+					header("location: home.php");
                 }
             }
         ?>

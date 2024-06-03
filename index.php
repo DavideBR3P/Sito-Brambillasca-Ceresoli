@@ -6,8 +6,6 @@
     if(isset($_POST["cognome"])) $cognome = $_POST["cognome"];  else $cognome = "";
     if(isset($_POST["email"])) $email = $_POST["email"];  else $email = "";
     if(isset($_POST["telefono"])) $telefono = $_POST["telefono"];  else $telefono = "";
-    if(isset($_POST["comune"])) $comune = $_POST["comune"];  else $comune = "";
-    if(isset($_POST["indirizzo"])) $indirizzo = $_POST["indirizzo"];  else $indirizzo = "";
 
 ?>
 
@@ -71,10 +69,10 @@
                 } elseif ($_POST["password"] != $_POST["conferma"]){
                     echo "<p>Le password inserite non corrispondono</p>";
                 } else {
-                    require("../data/connessione_db.php");
+                    require("../Sito-Brambillasca-Ceresoli/data/connessione_db.php");
 
                     $myquery = "SELECT username 
-						    FROM utenti 
+						    FROM utente 
 						    WHERE username='$username'";
 
                     $ris = $conn->query($myquery) or die("<p>Query fallita!</p>");
@@ -82,8 +80,8 @@
                         echo "Questo username è già stato usato";
                     } else {
 
-                        $myquery = "INSERT INTO utenti (username, password, nome, cognome, email, telefono, comune, indirizzo)
-                                    VALUES ('$username', '$password', '$nome', '$cognome','$email','$telefono','$comune','$indirizzo')";
+                        $myquery = "INSERT INTO utente (username, password, nome, cognome, email, telefono)
+                                    VALUES ('$username', '$password', '$nome', '$cognome','$email','$telefono')";
 
                         if ($conn->query($myquery) === true) {
                             session_start();
