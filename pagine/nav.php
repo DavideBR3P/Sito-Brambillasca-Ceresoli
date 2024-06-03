@@ -2,7 +2,7 @@
     <div class="centratonav">
         <ul class="navlinks">
             <?php
-                if (basename($_SERVER['PHP_SELF']) == "index.php") {
+                if (basename($_SERVER['PHP_SELF']) == "../index.php") {
                     echo "<li><a href='pagine/login.php'>Login</a></li>";
                 } elseif (basename($_SERVER['PHP_SELF']) == "login.php") {
                     echo "<li><a href='../index.php'>Registrati</a></li>";
@@ -12,10 +12,10 @@
                     } else {
                         echo "<li><a href='pagine/home.php'>Home</a></li>";
                     }
-                    if (basename($_SERVER['PHP_SELF']) == "Film/film.php") {
+                    if (basename($_SERVER['PHP_SELF']) == "../Film/film.php") {
                         echo "<li id='active'>Film</li>";
                     } else {
-                        echo "<li><a href='Film/film.php'>Film</a></li>";
+                        echo "<li><a href='../Film/film.php'>Film</a></li>";
                     }
                     // if (basename($_SERVER['PHP_SELF']) == "Serie Tv/serie-tv.php") {
                     //     echo "<li id='active'>Serie Tv</li>";
@@ -37,10 +37,10 @@
                     // } else {
                     //     echo "<li><a href='pagine/da non perdere.php'>Da Non Perdere</a></li>";
                     // }
-                    if (basename($_SERVER['PHP_SELF']) == "pagine/contatti.php") {
+                    if (basename($_SERVER['PHP_SELF']) == "contatti.php") {
                         echo "<li id='active'>Contatti</li>";
                     } else {
-                        echo "<li><a href='pagine/contatti.php'>Contatti</a></li>";
+                        echo "<li><a href='contatti.php'>Contatti</a></li>";
                     }
                     if (basename($_SERVER['PHP_SELF']) == "logout.php") {
                         echo "<li id='active'>Logout</li>";
