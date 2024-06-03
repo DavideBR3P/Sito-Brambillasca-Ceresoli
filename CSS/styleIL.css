@@ -100,18 +100,6 @@ ul.navlinks li a:hover{
     font-size: 10px;
 }
 
-.copertina-fr {
-    float: right;
-    width: 30%;
-}
-.copertina-fr img {
-    width: 100%;
-    margin-left: 10px;
-}
-.descrizione {
-    text-align: left;
-    font-size: 12px;
-}
 
 #form_restituzione{
 	text-align: left;

@@ -206,7 +206,18 @@ font-size: 110%;
   }
 
 
-  
+.copertina-fr {
+    float: right;
+    width: 30%;
+}
+.copertina-fr img {
+    width: 100%;
+    margin-left: 10px;
+}
+.descrizione {
+    text-align: left;
+    font-size: 12px;
+} 
 
 @media screen and (max-width: 1024px){
     .container-film{

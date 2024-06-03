@@ -88,6 +88,7 @@
                         <p class="short-desc">
                           Dune - Parte Due, film diretto da Denis Villeneuve, 
                           è il secondo capitolo della saga sci-fi tratta dal romanzo di Frank Herbert.
+                          <a href="scheda-film.php">Continua...</a>
                         </p>
                         <div class="icons">
                           <a href="#"><i class="fa-solid fa-heart"></i></a>
@@ -110,6 +111,7 @@
                         <p class="short-desc">
                           La La Land è un musical contemporaneo del 2016 diretto da Damien Chazelle.
                           Emma stone nel 2017 vinse l'oscar per la miglior attrice protagonista.
+                          <a href="scheda-film.php">Continua...</a>
                         </p>
                         <div class="icons">
                           <a href="#"><i class="fa-solid fa-heart"></i></a>
@@ -130,6 +132,7 @@
                         </h3>
                         <p class="short-desc">
                           The Wolf of Wall Street è un film del 2013 diretto da Martin Scorsese
+                          <a href="scheda-film.php">Continua...</a>
                         </p>
                         <div class="icons">
                           <a href="#"><i class="fa-solid fa-heart"></i></a>
@@ -150,6 +153,7 @@
                         </h3>
                         <p class="short-desc">
                           Il Buono, il Brutto, il Cattivo è un film western del 1966 diretto da Sergio Leone
+                          <a href="scheda-film.php">Continua...</a>
                         </p>
                         <div class="icons">
                           <a href="#"><i class="fa-solid fa-heart"></i></a>
@@ -170,6 +174,7 @@
                         <p class="short-desc">
                           Dune - Parte Due, film diretto da Denis Villeneuve, 
                           è il secondo capitolo della saga sci-fi tratta dal romanzo di Frank Herbert.
+                          <a href="scheda-film.php">Continua...</a>
                         </p>
                         <div class="icons">
                           <a href="#"><i class="fa-solid fa-heart"></i></a>
