@@ -48,6 +48,7 @@
                         Qual è la priorità di Paul? Vorrebbe vendicarsi degli Harkonnen che gli hanno ucciso il padre e hanno preso il controllo del pianeta Arrakis, con la complicità dell'Imperatore (Christopher Walken), deciso a liberarsi della sua casata. Sa però che questo lo trasformerebbe in un leader spietato, così resiste alle insistenze di sua madre: Lady Jessica (Rebecca Ferguson), ora Reverenda Madre dell'ordine delle Bene Gesserit, vuole che accetti il suo destino di "messia", Muad'dib, la figura che guiderà i Fremen alla liberazione di Arrakis.<br>
                         E' una strada dalla quale non si torna indietro, e dal canto loro gli Harkonnen stanno per schierare un nuovo avversario, lo spietato e sanguinario Feyd-Rautha (Austin Butler), nipote del Barone (Stellan Skarsgaard).
                         <br>Paul può avere la meglio? Ma soprattutto, VUOLE avere la meglio, considerando il prezzo da pagare con la guerra? E' davvero il messia o solo un principe che cerca di vendicare suo padre, il Duca Leto Atreides?
+                        <a href="https://www.youtube.com/watch?v=RD0-b7VO8F0"></a>
                         </p>
                 </div>
                 <div class="caratteristiche">

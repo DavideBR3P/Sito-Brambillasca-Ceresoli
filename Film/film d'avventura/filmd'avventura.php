@@ -39,6 +39,7 @@
                             <figure class="card">
                                 <img src="../../immagini/Film/Film D'avventura/Dune.jpg">
                                 <figcaption>Dune</figcaption>
+                                <a href="https://www.youtube.com/watch?v=SWbxKwlc1Vc">Guardalo subito!</a>
                             </figure>
                         </a>
                     </li>
@@ -47,6 +48,7 @@
                             <figure class="card">
                                 <img src="../../immagini/Film/Film D'avventura/Fa-Dune.jpg">
                                 <figcaption>Dune 2</figcaption>
+                                <a href="https://www.youtube.com/watch?v=RD0-b7VO8F0">Guardalo subito!</a>
                             </figure>
                         </a>
                     </li>
@@ -55,6 +57,7 @@
                             <figure class="card">
                                 <img src="../../immagini/Film/Film D'avventura/i goonies.jpg">
                                 <figcaption>I goonies</figcaption>
+                                <a href="https://www.youtube.com/watch?v=RD0-b7VO8F0">Guardalo subito!</a>
                             </figure>
                         </a>
                     </li>
@@ -63,6 +66,7 @@
                             <figure class="card">
                                 <img src="../../immagini/Film/Film D'avventura/Indiana jones i predatori dell' arca.jpg">
                                 <figcaption>Indiana Jones i predatori dell' arca</figcaption>
+                                <a href="https://www.youtube.com/watch?v=kFj1KG_juuY">Guardalo subito!</a>
                             </figure>
                         </a>
                     </li>
@@ -71,6 +75,7 @@
                             <figure class="card">
                                 <img src="../../immagini/Film/Film D'avventura/infiana jones 2.jpg">
                                 <figcaption>Indiana Jones e il tempio maledetto</figcaption>
+                                <a href="https://www.youtube.com/watch?v=QN89k3La-Gg">Guardalo subito!</a>
                             </figure>
                         </a>
                     </li>
@@ -79,6 +84,7 @@
                             <figure class="card">
                                 <img src="../../immagini/Film/Film D'avventura/indiana jones 3.jpg">
                                 <figcaption>Indiana Jones e l'ultima crociata</figcaption>
+                                <a href="https://www.youtube.com/watch?v=1SH7iTdhGe4">Guardalo subito!</a>
                             </figure>
                         </a>
                     </li>
@@ -87,6 +93,7 @@
                             <figure class="card">
                                 <img src="../../immagini/Film/Film D'avventura/Avatar 1.jpg">
                                 <figcaption>Avatar</figcaption>
+                                <a href="https://www.youtube.com/watch?v=xtBRS6KKhMs">Guardalo subito!</a>
                             </figure>
                         </a>
                     </li>
@@ -95,6 +102,7 @@
                             <figure class="card">
                                 <img src="../../immagini/Film/Film D'avventura/Avatar 2.jpg">
                                 <figcaption>Avatar 2</figcaption>
+                                <a href="https://www.youtube.com/watch?v=MLp7-KB-xdk">Guardalo subito!</a>
                             </figure>
                         </a>
                     </li>
@@ -103,6 +111,7 @@
                             <figure class="card">
                                 <img src="../../immagini/Film/Film D'avventura/interstellar.jpg">
                                 <figcaption>Interstellar</figcaption>
+                                <a href="https://www.youtube.com/watch?v=EIVMVIr3q3Y">Guardalo Subito!</a>
                             </figure>
                         </a>
                     </li>
@@ -111,6 +120,7 @@
                             <figure class="card">
                                 <img src="../../immagini/Film/Film D'avventura/2001.jpg">
                                 <figcaption>2001: odissea nello spazio</figcaption>
+                                <a href="https://www.youtube.com/watch?v=ivPu3t2j4Fg">Guardalo subito!</a>
                             </figure>
                         </a>
                     </li>
@@ -119,6 +129,7 @@
                             <figure class="card">
                                 <img src="../../immagini/Film/Film D'avventura/EEAAO.jpg">
                                 <figcaption>Everything Everywhere All at Once</figcaption>
+                                <a href="https://www.youtube.com/watch?v=wxN1T1uxQ2g">Guardalo subito!</a>
                             </figure>
                         </a>
                     </li>
@@ -127,6 +138,7 @@
                             <figure class="card">
                                 <img src="../../immagini/Film/Film D'avventura/ritono al futuro 1.jpg">
                                 <figcaption>Ritorno al futuro</figcaption>
+                                <a href="https://www.youtube.com/watch?v=LjCCDFkECv4"></a>
                             </figure>
                         </a>
                     </li>
