@@ -49,7 +49,6 @@
             echo <<<EOD
                 <div class="grid-immagini">
                     <ul class="galleria">
-
             EOD;
             foreach($ris as $film){
                 $titolo=$film['Titolo'];
