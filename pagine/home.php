@@ -111,7 +111,7 @@
                         <p class="short-desc">
                           Dune - Parte Due, film diretto da Denis Villeneuve, 
                           è il secondo capitolo della saga sci-fi tratta dal romanzo di Frank Herbert.
-                          <a href="scheda-film.php">Continua...</a>
+                          <a href="scheda-film.php?Cod_Film=2">Continua...</a>
                         </p>
                         <div class="icons">
                           <a href="#"><i class="fa-solid fa-heart"></i></a>

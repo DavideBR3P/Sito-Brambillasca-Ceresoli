@@ -1,27 +1,28 @@
 <?php
     if (!isset($_GET["Cod_Film"])) {
-        die("Errore! manca un parametro essenziale per il caricamento del libro!");
+        die("Errore! manca un parametro essenziale per il caricamento del film!");
     } else {
         $Cod_Film = $_GET["Cod_Film"];
         require("../data/connessione_db.php");
-        $sql = "SELECT film.Cod_Film, film.Descrizione, film.Durata, film.Titolo, film.Data, film.Cod_Reg, film.copertina, attori.Cod_Attori, attori.Nome, attori.Cognome, genere.Cod_genere, genere.Genere
-                FROM film JOIN attori ON film.Cod_Film = attori.Cod_Film
-                            JOIN genere ON film.Cod_Film = genere.Cod_Film  
-                WHERE Cod_film=$Cod_Film"; 
+        $sql = "SELECT film.Descrizione, film.Durata, film.Titolo, film.Data, film.Cod_Reg, film.copertina, attori.Nome, attori.Cognome, genere.Genere
+                FROM film JOIN ha_recitato ON film.Cod_Film = ha_recitato.Cod_Film
+                    JOIN attori ON attori.Cod_Attori =  ha_recitato.Cod_Attori
+                              JOIN ha_come_genere ON film.Cod_Film = ha_come_genere.Cod_Film
+                             JOIN genere ON genere.Cod_genere = ha_come_genere.Cod_Gen
+                              JOIN prodotto_da ON film.Cod_Film = prodotto_da-Cod_Film
+                             JOIN casa_di_produzione ON casa_di_produzione.Cod_CPRO = prodotto_da.Cod_CPRO
+                WHERE Cod_film=2"; 
         $ris = $conn->query($sql) or die("<p>Query fallita!</p>");
         if ($ris->num_rows == 0) {
-            die ("<p>Scheda libro non trovata!</p>");
+            die ("<p>Scheda film non trovata!</p>");
         } else {
             $riga = $ris->fetch_assoc();
             $Titolo = $riga['Titolo'];
             $Durata = $riga['Durata'];
             $Data = $riga["Data"];
-            $Cod_Reg = $riga["Cod_Reg"];
             $copertina = $riga["copertina"];
-            $Cod_Attori = $riga["Cod_Attori"];
             $Nome = $riga["Nome"];
             $Cognome = $riga["Cognome"];
-            $Cod_genere = $riga["Cod_genere"];
             $Genere = $riga["Genere"];
             $Descrizione = $riga["Descrizione"];
         }
@@ -46,14 +47,6 @@
         <div class="copertina-fr">
             <?php
                 echo "<img src='../immagini/$copertina' alt='$copertina'>";
-            ?>
-        </div>
-        <div class="descrizione">
-            <?php
-                $paragrafi = explode("\n", $$Descrizione);
-                foreach ($paragrafi as $paragrafo) {
-                    echo "<p>$paragrafo</p>";
-                }
             ?>
         </div>
 		
