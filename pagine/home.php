@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+    <?php require("nav.php");?> 
         <div class="contenitore-g">
             <header class="header clearfix">
                 <a href="" class="header_logo"><img src="../logor.jpg"></a>
@@ -18,7 +19,6 @@
                     <span></span>
                     <span></span>
                 </a>
-                <?php require("nav.php");?> 
 
                  <!-- <ul class="header_menu animate">
                     <li class="header_menu_item"><a href="Film/film.php">Film</a></li>

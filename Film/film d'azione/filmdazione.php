@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="../../CSS/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="../../CSS/style.css">
+        <link rel="stylesheet" href="../../CSS/styler.css">
         <script src="../../JAVA/script.js" defer></script>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">    
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +13,9 @@
 
     </head>
     <body>
+        <?php
+            require("../../pagine/nav.php");
+        ?>
         <div class="contenitore-g">
             <header class="header clearfix">
                 <a href="" class="header_logo"><img src="../../logor.jpg"></a>
@@ -157,6 +161,8 @@
         });
 
     </script>
-
+    <?php
+        require("../../pagine/footer.php");
+    ?>
     </body>
 </html>

@@ -6,6 +6,7 @@
     <title>Contatti</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/styleContatti.css">
+    <link rel="stylesheet" href="../CSS/styler.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
@@ -40,7 +41,7 @@
             <span></span>
             <span></span>
             <span></span>
-            The Film Review, è un progetto di informatica realizzato da Brambillasca Davide e Contini Federico su ordine del prof Francesco Tormene.
+            The Film Review, è un progetto di informatica realizzato da Brambillasca Davide e Ceresoli Veronica su ordine del prof Francesco Tormene.
             <br>Il nostro sito è stato realizzato sulla base di una passione comune, quella per la cinematografia.
             è stato un lavoro lungo, logorante e impegnativo; ma speriamo che ne sia valsa la pena.
             Le recensioni che abbiamo messo sono: Dune 2, La La Land, Il Buono, Il Brutto e il Cattivo e The wolf of wall street.<br>
@@ -62,7 +63,7 @@
             <span></span>
             <span></span>
             Brambillasca Davide: davide.brambillasca@liceobanfi.eu
-            <br>Contini Federico: federico.contini@liceobanfi.eu<br>
+            <br>Ceresoli Veronica: veronica.ceresoli@liceobanfi.eu<br>
             <span></span>
             <span></span>
             <span></span>
@@ -74,7 +75,7 @@
         <p>
             
             Brambillasca Davide: 327 925 1429
-            <br>Contini Federico: 331 357 1653<br>
+            <br>Ceresoli Veronica: 375 512 2579<br>
             
         </p>
         

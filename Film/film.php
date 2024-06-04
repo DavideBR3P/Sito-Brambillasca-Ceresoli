@@ -13,6 +13,7 @@
         <title>Film</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../CSS/styler.css">
         <script src="../JAVA/script.js" defer></script>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">    
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +22,7 @@
     </head>
     <body>
         <?php
-        require("../pagine/nav.php");
+            require("../pagine/nav.php");
         ?>
         <div class="contenitore-g">
             <header class="header clearfix">
@@ -55,7 +56,7 @@
                         </a>
                     </li>
                     <li class="card-item">
-                        <a href="film horror/Horror.html">
+                        <a href="film horror/Horror.php">
                             <figure class="card">
                                 <img src="../immagini/Film/Film Horror.png">
                                 <figcaption>Horror</figcaption>
@@ -63,7 +64,7 @@
                         </a>
                     </li>
                     <li class="card-item">
-                        <a href="film d'azione/filmdazione.html">
+                        <a href="film d'azione/filmdazione.php">
                             <figure class="card">
                                 <img src="../immagini/Film/Film azione.png">
                                 <figcaption>Film d'azione</figcaption>
@@ -71,7 +72,7 @@
                         </a>
                     </li>
                     <li class="card-item">
-                        <a href="film western/western.html">
+                        <a href="film western/western.php">
                             <figure class="card">
                                 <img src="../immagini/Film/Film western.png">
                                 <figcaption>Western</figcaption>
@@ -79,7 +80,7 @@
                         </a>
                     </li>
                     <li class="card-item">
-                        <a href="filmdrammatici/filmdrammatici.html">
+                        <a href="filmdrammatici/filmdrammatici.php">
                             <figure class="card">
                                 <img src="../immagini/Film/Film Drammatici.png">
                                 <figcaption>Film Drammatici</figcaption>
@@ -87,7 +88,7 @@
                         </a>
                     </li>
                     <li class="card-item">
-                        <a href="film romantici/filmromatici.html">
+                        <a href="film romantici/filmromatici.php">
                             <figure class="card">
                                 <img src="../immagini/Film/Film romantici.png">
                                 <figcaption>Romantici</figcaption>
@@ -95,7 +96,7 @@
                         </a>
                     </li>
                     <li class="card-item">
-                        <a href="film commedie/filmcommedie.html">
+                        <a href="film commedie/filmcommedie.php">
                             <figure class="card">
                                 <img src="../immagini/Film/Commedie.png">
                                 <figcaption>Commedie</figcaption>
@@ -129,7 +130,8 @@
         });
 
     </script>
-    <?php require("footer.php");
+    <?php
+        require("../pagine/footer.php");
     ?>
     </body>
 </html>
