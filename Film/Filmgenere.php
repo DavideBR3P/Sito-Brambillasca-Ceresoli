@@ -57,7 +57,7 @@
                 <li class="card-item">
                         <a href="#">
                             <figure class="card">
-                                <img src="../../immagini/Film/$copertina">
+                                <img src="../immagini/Film/$copertina">
                                <figcaption>$titolo</figcaption>
                            </figure>
                         </a>
