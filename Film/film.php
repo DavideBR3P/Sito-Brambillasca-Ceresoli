@@ -47,7 +47,7 @@
                 <div class="grid-immagini">
                 <ul class="galleria">
                     <li class="card-item">
-                        <a href="Filmgenere.php?Genere=1">
+                        <a href="Filmgenere.php?Genere=7">
                             <figure class="card">
                                 <img src="../immagini/Film/Film Avventura.png">
                                 <figcaption>Film d'avventura</figcaption>
@@ -55,7 +55,7 @@
                         </a>
                     </li>
                     <li class="card-item">
-                        <a href="film horror/Horror.html">
+                        <a href="Filmgenere.php?Genere=4">
                             <figure class="card">
                                 <img src="../immagini/Film/Film Horror.png">
                                 <figcaption>Horror</figcaption>
@@ -63,7 +63,7 @@
                         </a>
                     </li>
                     <li class="card-item">
-                        <a href="film d'azione/filmdazione.html">
+                        <a href="Filmgenere.php?Genere=1">
                             <figure class="card">
                                 <img src="../immagini/Film/Film azione.png">
                                 <figcaption>Film d'azione</figcaption>
@@ -71,7 +71,7 @@
                         </a>
                     </li>
                     <li class="card-item">
-                        <a href="film western/western.html">
+                        <a href="Filmgenere.php?Genere=6>
                             <figure class="card">
                                 <img src="../immagini/Film/Film western.png">
                                 <figcaption>Western</figcaption>
@@ -79,7 +79,7 @@
                         </a>
                     </li>
                     <li class="card-item">
-                        <a href="filmdrammatici/filmdrammatici.html">
+                        <a href="Filmgenere.php?Genere=3">
                             <figure class="card">
                                 <img src="../immagini/Film/Film Drammatici.png">
                                 <figcaption>Film Drammatici</figcaption>
@@ -87,7 +87,7 @@
                         </a>
                     </li>
                     <li class="card-item">
-                        <a href="film romantici/filmromatici.html">
+                        <a href="Filmgenere.php?Genere=5">
                             <figure class="card">
                                 <img src="../immagini/Film/Film romantici.png">
                                 <figcaption>Romantici</figcaption>
@@ -95,7 +95,7 @@
                         </a>
                     </li>
                     <li class="card-item">
-                        <a href="film commedie/filmcommedie.html">
+                        <a href="Filmgenere.php?Genere=2">
                             <figure class="card">
                                 <img src="../immagini/Film/Commedie.png">
                                 <figcaption>Commedie</figcaption>
