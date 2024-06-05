@@ -1,11 +1,3 @@
-<?php
-	session_start();
-	if(isset($_SESSION['username'])){
-		header('location:../index');
-	}
-?>
-
-
 
 <html>
     <head >
@@ -14,6 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="../CSS/style.css">
         <link rel="stylesheet" href="../CSS/styler.css">
+        <link rel="stylesheet" href="../CSS/style_nav.css">
         <script src="../JAVA/script.js" defer></script>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">    
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
